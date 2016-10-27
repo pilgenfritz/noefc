@@ -1,0 +1,20 @@
+[
+	{
+		"nome" : "Pedro Ilgenfritz",
+		"apelido" : "Fritz",
+		"numero": "25",
+		"dataNascimento" : "31/08/1991",
+		"posicao" : "defensor",
+		"src" : "mert.jpg",
+		"insta" : "pilgenfritz"
+	},
+	{
+		"nome" : "Renao Lamotte",
+		"apelido" : "Junior",
+		"numero": "8",
+		"dataNascimento" : "31/08/1991",
+		"posicao" : "meia",
+		"src" : "felipe.jpg",
+		"insta" : "rlamotte"
+	}
+]

@@ -1,0 +1,233 @@
+[
+	{
+		"jogo" : 1,
+		"data" : "2016",
+		"local" : "HD - Centro Gaúcho",
+		"hora": "22:30",
+		"adversarioNome" : "Casarão ESPM",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "4",
+		"golsAdv" : "3"
+	},
+	{
+		"jogo" : 2,
+		"data" : "2016",
+		"local" : "Planet Ball",
+		"hora": "22:30",
+		"adversarioNome" : "Economaquina",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "3",
+		"golsAdv" : "0"
+	},
+	{
+		"jogo" : 3,
+		"data" : "2016",
+		"local" : "Planet Ball",
+		"hora": "22:30",
+		"adversarioNome" : "Vinte e Seis de Dezembro",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "3",
+		"golsAdv" : "2"
+	},
+	{
+		"jogo" : 4,
+		"data" : "2016",
+		"local" : "Mundo dos Esportes",
+		"hora": "23:00",
+		"adversarioNome" : "Chinelo Team",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "13",
+		"golsAdv" : "6"
+	},
+	{
+		"jogo" : 5,
+		"data" : "2016",
+		"local" : "HD - Centro Gaúcho",
+		"hora": "22:30",
+		"adversarioNome" : "Alface Team",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "4",
+		"golsAdv" : "4"
+	},
+	{
+		"jogo" : 6,
+		"data" : "2016",
+		"local" : "HD - Centro Gaúcho",
+		"hora": "23:30",
+		"adversarioNome" : "Sem nome",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "16",
+		"golsAdv" : "3"
+	},
+	{
+		"jogo" : 7,
+		"data" : "2016",
+		"local" : "HD - Centro Gaúcho",
+		"hora": "23:30",
+		"adversarioNome" : "Amigos Bernardo",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "11",
+		"golsAdv" : "2"
+	},
+	{
+		"jogo" : 8,
+		"data" : "16/06/2016",
+		"local" : "HD - Farrapos",
+		"hora": "23:00",
+		"adversarioNome" : "Hangover",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "5",
+		"golsAdv" : "8"
+	},
+	{
+		"jogo" : 9,
+		"data" : "21/06/2016",
+		"local" : "HD - Farrapos",
+		"hora": "22:30",
+		"adversarioNome" : "Futiconha",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "4",
+		"golsAdv" : "8"
+	},
+	{
+		"jogo" : 10,
+		"data" : "09/07/2016",
+		"local" : "MCM",
+		"hora": "17:30",
+		"adversarioNome" : "Timor Leste",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "3",
+		"golsAdv" : "2"
+	},
+	{
+		"jogo" : 11,
+		"data" : "13/07/2016",
+		"local" : "HD - Farrapos",
+		"hora": "22:30",
+		"adversarioNome" : "OnO All Stars",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "7",
+		"golsAdv" : "7"
+	},
+	{
+		"jogo" : 12,
+		"data" : "26/07/2016",
+		"local" : "Soccer City",
+		"hora": "23:00",
+		"adversarioNome" : "Guinness",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "4",
+		"golsAdv" : "1"
+	},
+	{
+		"jogo" : 13,
+		"data" : "30/07/2016",
+		"local" : "HD - Centro Gaúcho",
+		"hora": "16:30",
+		"adversarioNome" : "Timor Leste",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "8",
+		"golsAdv" : "1"
+	},
+	{
+		"jogo" : 14,
+		"data" : "06/08/2016",
+		"local" : "HD - Centro Gaúcho",
+		"hora": "16:30",
+		"adversarioNome" : "Ipe FC",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "6",
+		"golsAdv" : "1"
+	},
+	{
+		"jogo" : 15,
+		"data" : "09/08/2016",
+		"local" : "Soccer City",
+		"hora": "23:00",
+		"adversarioNome" : "SER Esturricado",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "5",
+		"golsAdv" : "6"
+	},
+	{
+		"jogo" : 16,
+		"data" : "21/08/2016",
+		"local" : "ASSTBM",
+		"hora": "18:00",
+		"adversarioNome" : "Garra Gaúcha",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "7",
+		"golsAdv" : "7"
+	},
+	{
+		"jogo" : 17,
+		"data" : "22/08/2016",
+		"local" : "ASSTBM",
+		"hora": "21:00",
+		"adversarioNome" : "Imortal FC",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "8",
+		"golsAdv" : "5"
+	},
+	{
+		"jogo" : 18,
+		"data" : "25/08/2016",
+		"local" : "HD - Farrapos",
+		"hora": "23:00",
+		"adversarioNome" : "Vulcano",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "2",
+		"golsAdv" : "2"
+	},
+	{
+		"jogo" : 19,
+		"data" : "06/10/2016",
+		"local" : "Soccer City",
+		"hora": "22:00",
+		"adversarioNome" : "Floresta F.C",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "4",
+		"golsAdv" : "3"
+	},
+	{
+		"jogo" : 20,
+		"data" : "13/10/2016",
+		"local" : "HD - Centro Gaúcho",
+		"hora": "22:30",
+		"adversarioNome" : "Madagascar",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "4",
+		"golsAdv" : "10"
+	},
+	{
+		"jogo" : 21,
+		"data" : "17/10/2016",
+		"local" : "HD - Farrapos",
+		"hora": "23:00",
+		"adversarioNome" : "Atlético Jr",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "8",
+		"golsAdv" : "8"
+	}
+]

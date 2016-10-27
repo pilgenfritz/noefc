@@ -1,0 +1,213 @@
+p, h1, h2, h3, h4, h5, a, span{
+	font-family: 'Poppins', sans-serif;
+	-webkit-font-smoothing: antialiased !important; -moz-osx-font-smoothing: grayscale !important;
+	color: #FFF;
+	line-height: 1.2;
+}
+#main{
+	position: relative;
+	height: 100vh;
+}
+#main .logo{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	width: 112px;
+	height: 123px;
+}
+#main .titulo-noe{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	font-size: 20px;
+}
+#main .overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(188,153,57,0.9) 0%, rgba(104,0,0,0.96) 60%, rgba(104,0,0,1) 100%);
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(188,153,57,0.9) 0%,rgba(104,0,0,0.96) 60%,rgba(104,0,0,1) 100%);
+	background: radial-gradient(ellipse at center,  rgba(188,153,57,0.9) 0%,rgba(104,0,0,0.96) 60%,rgba(104,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6bc9939', endColorstr='#680000',GradientType=1 );
+	opacity: .6;
+	z-index: -1;
+}
+#main .overlay-active{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0;
+}
+#main h1{
+	font-family: 'Poppins', sans-serif;
+	text-transform: lowercase;
+	font-size: 46px;
+	font-weight: 400;
+	color: #FFF;
+	margin: 40px 0;
+}
+#main i{
+	color: #FFF;
+}
+#main .wrap-item{
+	cursor: pointer;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+}
+#main .wrap-item:before,
+#main .wrap-item:after
+{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background: #FFF;
+	transition: transform .25s ease-in-out;
+}
+#main .wrap-item:before{
+	top: 0;
+	left: 0;
+	transform: translateX(-100%);
+}
+#main .wrap-item:after{
+	bottom: 0;
+	right: 0;
+	transform: translateX(100%);
+}
+#main .wrap-item:hover:before,
+#main .wrap-item:hover:after{
+	transform: translateX(0%);	
+}
+#main .wrap-content{
+	position: absolute;
+	height: 0px;
+	width: 1px;
+	background: #FFF;
+	left: 50%;
+	top: 50%;
+	margin-left: -1px;
+	margin-top: -50px;
+	overflow: hidden;
+	z-index: 9;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#main .close-content{
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	z-index: 999;
+	cursor: pointer;
+	color: #680000;
+	opacity: 0;
+}
+.content{
+	opacity: 0;
+	transform: translateY(50px);
+	position: absolute;
+	width: 100%;
+	top: 0;
+}
+.content-time figure{
+	height: 250px;
+}
+.content-time figure img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.content-time figure .overlay-black{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: -moz-linear-gradient(top,  rgba(104,0,0,1) 0%, rgba(104,0,0,0.96) 40%, rgba(0,0,0,0.9) 100%);
+	background: -webkit-linear-gradient(top,  rgba(104,0,0,1) 0%,rgba(104,0,0,0.96) 40%,rgba(0,0,0,0.9) 100%);
+	background: linear-gradient(to bottom,  rgba(104,0,0,1) 0%,rgba(104,0,0,0.96) 40%,rgba(0,0,0,0.9) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#680000', endColorstr='#e6000000',GradientType=0 );
+	z-index: 1;
+	opacity: 0;
+	transition: all .25s ease-in-out;
+}
+.content-time figure figcaption>div{
+	transform: translateY(0px);
+	transition: all .25s ease-in-out;
+}
+.content-time figure .icon-more-team{
+	opacity: 0;
+	transition: all .25s ease-in-out;	
+}
+.content-time figure:hover .overlay-black{
+	opacity: 0.8;	
+}
+.content-time figure:hover figcaption>div{
+	transform: translateY(-20px);
+}
+.content-time figure:hover .icon-more-team{
+	opacity: 1;
+}
+.content figure figcaption{
+	z-index: 1;
+}
+.content figure figcaption h4{
+	font-size: 40px;
+}
+.content figure figcaption h3{
+	font-size: 26px;	
+}
+.content figure figcaption p{
+	font-size: 20px;
+}
+.content h2{
+	font-family: 'Poppins', sans-serif;
+	color: #680000;
+	font-size: 42px;
+	font-weight: 400;
+}
+
+.content-jogos .escudo{
+	height: 90px;
+}
+.content-jogos h3{
+	font-size: 30px;
+	color: #BC9939;
+}
+.content-jogos h4{
+	color: #680000;
+	font-size: 30px;
+	font-weight: 700;
+}
+.content-jogos h5{
+	color: #680000;
+	font-size: 26px;
+}
+.content-jogos h6{
+	color: #680000;
+	font-size: 20px;
+}
+.content-jogos .list-jogo{
+	border: solid 1px #BC9939;
+	padding: 15px;
+}
+
+@media (max-width: 767px) {  
+  #main h1{
+  	font-size: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
