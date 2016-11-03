@@ -16,5 +16,14 @@
 		"posicao" : "meia",
 		"src" : "felipe.jpg",
 		"insta" : "rlamotte"
+	},
+	{
+		"nome" : "Vinicius Moresco",
+		"apelido" : "Vini",
+		"numero": "5",
+		"dataNascimento" : "31/08/1991",
+		"posicao" : "modelo",
+		"src" : "vini.png",
+		"insta" : "vmoresco"
 	}
 ]
