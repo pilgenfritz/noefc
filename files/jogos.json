@@ -229,5 +229,16 @@
 		"lbnEscudo" : "logo.png",
 		"golsLbn" : "8",
 		"golsAdv" : "8"
+	},
+	{
+		"jogo" : 22,
+		"data" : "03/11/2016",
+		"local" : "HD - Centro Gaúcho",
+		"hora": "22:00",
+		"adversarioNome" : "Vulcano",
+		"adversarioEscudo" : "escudo.png",
+		"lbnEscudo" : "logo.png",
+		"golsLbn" : "",
+		"golsAdv" : ""
 	}
 ]
