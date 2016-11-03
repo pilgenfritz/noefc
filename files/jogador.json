@@ -12,7 +12,7 @@
 		"nome" : "Renao Lamotte",
 		"apelido" : "Junior",
 		"numero": "8",
-		"dataNascimento" : "31/08/1991",
+		"dataNascimento" : "",
 		"posicao" : "meia",
 		"src" : "felipe.jpg",
 		"insta" : "rlamotte"
@@ -21,9 +21,19 @@
 		"nome" : "Vinicius Moresco",
 		"apelido" : "Vini",
 		"numero": "5",
-		"dataNascimento" : "31/08/1991",
+		"dataNascimento" : "",
 		"posicao" : "modelo",
 		"src" : "vini.png",
 		"insta" : "vmoresco"
+	},
+	{
+		"nome" : "Jean Ramon",
+		"apelido" : "Jean Ramon",
+		"numero": "10",
+		"dataNascimento" : "",
+		"posicao" : "atacante",
+		"src" : "jean.jpeg",
+		"insta" : "jahnramon"
 	}
+
 ]
