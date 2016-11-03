@@ -25,14 +25,5 @@
 		"posicao" : "modelo",
 		"src" : "vini.png",
 		"insta" : "vmoresco"
-	},
-	{
-		"nome" : "Teste",
-		"apelido" : "teste",
-		"numero": "5",
-		"dataNascimento" : "31/08/1991",
-		"posicao" : "teste",
-		"src" : "felipe.jpg",
-		"insta" : "teste"
 	}
 ]
