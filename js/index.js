@@ -1,61 +1,57 @@
 $(document).ready(function(){
-	$.backstretch("img/main.jpg");
-
+	/*$.backstretch("img/main.jpg");*/
 	
-	function backstretchResize(){
+	/*function backstretchResize(){
 		$('.back-figure').each(function(index){
 			$parent = $(this);
-			backSrc = $(this).find('img').attr('src');
+			backSrc = $(this).find('img').attr('ng-src');
 			$(this).backstretch(backSrc)
 			$parent.find('.back-img').hide();
 		})
+	}*/
+
+	$('#main').fullpage({
+		navigation: true,
+		afterLoad (anchorLink, index){
+            if(index == 2){
+            	effect2()
+            }else if(index == 3){
+            	effect3()
+            }else if(index == 4){
+            	effect4()
+            }else{
+            	effect1()
+            }
+        }
+	});
+
+	$('.btn-action').on('click', function(){
+		$.fn.fullpage.moveTo(4);
+	})
+
+	function effect1(){
+		var tl1 = new TimelineLite();
+			tl1.to('.section-apresentacao h2', 1, {autoAlpha: 1, x:"0px"})
+			   .to('.section-apresentacao h3', 1, {autoAlpha: 1, x:"0px"}, "-=0.5")
+	}
+	function effect2(){
+		var tl2 = new TimelineLite();
+			tl2.to('.section-agua h2', 1, {autoAlpha: 1, y:"0px"})
+			   .to('.section-agua h3', 1, {autoAlpha: 1, y:"0px"}, "-=0.8")	
+			   .to('.section-agua h4', 1, {autoAlpha: 1, y:"0px"}, "-=0.8")	
+			   .to('.section-agua .btn-action', 1, {autoAlpha: 1, y:"0px"}, "-=0.2")	
+	}
+	function effect3(){
+		var tl3 = new TimelineLite();
+			tl3.to('.section-sustentavel h1', 1, {autoAlpha: 1, y:"0px"})
+			   .to('.section-sustentavel h2', 1, {autoAlpha: 1, y:"0px"}, "-=0.8")	
+			   .staggerTo('.section-sustentavel figure', 1, {autoAlpha: 1, y:"0px", x:"0px"}, "-=0.8")	
+	}
+	function effect4(){
+		
 	}
 
-	 $('.item-team').on('click', function(){	
-	 	tlContentOpen = new TimelineLite();
-	 	tlContentOpen.to('.overlay-active', 0.5, {autoAlpha: 0.5})
-		 			 .to('.wrap-content', 0.5, {top: "2.5%", marginTop: "0", height: "95%"})
-		 			 .to('.wrap-content', 0.5, {left: "2.5%", marginLeft: "0", width: "95%"}, "-=0.25")
-		 			 .to('.wrap-content .content-time', 0.5, {autoAlpha: 1, y:0, zIndex:1})
-		 			 .to('.close-content', 0.5, {autoAlpha: 1})
-	 })
-	 $('.item-match').on('click', function(){	
-	 	tlContentJogosOpen = new TimelineLite();
-	 	tlContentJogosOpen.to('.overlay-active', 0.5, {autoAlpha: 0.5})
-		 			 .to('.wrap-content', 0.5, {top: "2.5%", marginTop: "0", height: "95%"})
-		 			 .to('.wrap-content', 0.5, {left: "2.5%", marginLeft: "0", width: "95%"}, "-=0.25")
-		 			 .to('.wrap-content .content-jogos', 0.5, {autoAlpha: 1, y:0, zIndex:1})
-		 			 .to('.close-content', 0.5, {autoAlpha: 1})
-	 })
 
-	 $('.close-content').on('click', function(){
-	 	tlContentClose = new TimelineLite();
-	 	tlContentClose.to('.close-content', 0.5, {autoAlpha: 0})
-	 				  .to('.wrap-content .content', 0.5, {autoAlpha: 0, y:"50px", zIndex:"-1"})
-	 				  .to('.wrap-content', 0.5, {left: "50%", marginLeft: "-1px", width: "1px"})
-	 				  .to('.wrap-content', 0.5, {top: "50%", marginTop: "-50px", height: "0px"})
-	 				  .to('.overlay-active', 0.25, {autoAlpha: 0})
-	 })
+	
 })
-
-var myApp = angular.module('myApp',[]);
-
-myApp.controller('time', ['$scope', '$http', function($scope, $http) {
-  $scope.nomeTime = 'La Barca de Noé!';
-
-  var loadTime = function(){
-  	$http.get("files/jogador.json").success(function(data){
-  		$scope.jogadores = data;
-  	})
-  }
-
-  var loadJogos = function(){
-  	$http.get("files/jogos.json").success(function(data){
-  		$scope.jogos = data;
-  	})
-  }
-
-  loadTime();
-  loadJogos();
-}]);
 

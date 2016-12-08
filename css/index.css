@@ -1,214 +1,123 @@
 p, h1, h2, h3, h4, h5, a, span{
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	-webkit-font-smoothing: antialiased !important; -moz-osx-font-smoothing: grayscale !important;
 	color: #FFF;
 	line-height: 1.2;
 }
-#main{
+
+#main>section{
 	position: relative;
 	height: 100vh;
-}
-#main .logo{
-	position: absolute;
-	left: 30px;
-	top: 30px;
-	width: 112px;
-	height: 123px;
-}
-#main .titulo-noe{
-	position: absolute;
-	top: 30px;
-	right: 30px;
-	font-size: 20px;
-}
-#main .overlay{
-	position: absolute;
-	top: 0;
-	left: 0;
 	width: 100%;
-	height: 100%;
-	background: -moz-radial-gradient(center, ellipse cover,  rgba(188,153,57,0.9) 0%, rgba(104,0,0,0.96) 60%, rgba(104,0,0,1) 100%);
-	background: -webkit-radial-gradient(center, ellipse cover,  rgba(188,153,57,0.9) 0%,rgba(104,0,0,0.96) 60%,rgba(104,0,0,1) 100%);
-	background: radial-gradient(ellipse at center,  rgba(188,153,57,0.9) 0%,rgba(104,0,0,0.96) 60%,rgba(104,0,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6bc9939', endColorstr='#680000',GradientType=1 );
-	opacity: .6;
-	z-index: -1;
 }
-#main .overlay-active{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #000;
+
+section.section-apresentacao{
+	background-image: url(../img/img1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+section.section-apresentacao h2,
+section.section-apresentacao h3{
 	opacity: 0;
+	transform: translateX(-50px);
 }
-#main h1{
-	font-family: 'Poppins', sans-serif;
-	text-transform: lowercase;
-	font-size: 46px;
-	font-weight: 400;
-	color: #FFF;
-	margin: 40px 0;
+
+
+.tm-align-middle{
+	/*position: relative;
+	top: 35vh;*/
 }
-#main i{
-	color: #FFF;
+
+h2{
+	font-size: 50px;
+	font-weight: 300;
 }
-#main .wrap-item{
-	cursor: pointer;
-	padding: 20px;
-	position: relative;
-	overflow: hidden;
+h3{
+	font-size: 36px;
+	font-weight: 300;
 }
-#main .wrap-item:before,
-#main .wrap-item:after
-{
-	content: '';
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+	background: #F5821F !important;
+}
+.overlay-section{
 	position: absolute;
-	width: 100%;
-	height: 1px;
-	background: #FFF;
-	transition: transform .25s ease-in-out;
-}
-#main .wrap-item:before{
 	top: 0;
 	left: 0;
-	transform: translateX(-100%);
-}
-#main .wrap-item:after{
-	bottom: 0;
+	left: 0;
 	right: 0;
-	transform: translateX(100%);
-}
-#main .wrap-item:hover:before,
-#main .wrap-item:hover:after{
-	transform: translateX(0%);	
-}
-#main .wrap-content{
-	position: absolute;
-	height: 0px;
-	width: 1px;
-	background: #FFF;
-	left: 50%;
-	top: 50%;
-	margin-left: -1px;
-	margin-top: -50px;
-	overflow: hidden;
-	z-index: 9;
-	overflow-x: hidden;
-	overflow-y: auto;
-}
-#main .close-content{
-	position: absolute;
-	top: 5%;
-	right: 5%;
-	z-index: 999;
-	cursor: pointer;
-	color: #680000;
-	opacity: 0;
+	width: 100%;
+	height: 100%;
+	background: -moz-linear-gradient(left,  rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%);
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.6) 100%);
+	background: linear-gradient(to right,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.6) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#99000000',GradientType=1 );
+	z-index: 1;
 }
 .content{
+	position: relative;
+	z-index: 2;
+}
+section.section-agua{
+	background-image: url(../img/imgagua.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+/*	background-attachment: fixed;*/
+}
+section.section-agua h2,
+section.section-agua h3,
+section.section-agua h4{
 	opacity: 0;
-	transform: translateY(50px);
-	position: absolute;
-	width: 100%;
-	top: 0;
+	transform: translateY(20px);
 }
-.content-time figure{
-	height: 250px;
-}
-.content-time figure img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	min-width: 100%;
-}
-.content-time figure .overlay-black{
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: -moz-linear-gradient(top,  rgba(104,0,0,1) 0%, rgba(104,0,0,0.96) 40%, rgba(0,0,0,0.9) 100%);
-	background: -webkit-linear-gradient(top,  rgba(104,0,0,1) 0%,rgba(104,0,0,0.96) 40%,rgba(0,0,0,0.9) 100%);
-	background: linear-gradient(to bottom,  rgba(104,0,0,1) 0%,rgba(104,0,0,0.96) 40%,rgba(0,0,0,0.9) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#680000', endColorstr='#e6000000',GradientType=0 );
-	z-index: 1;
-	opacity: 0;
-	transition: all .25s ease-in-out;
-}
-.content-time figure figcaption>div{
-	transform: translateY(0px);
-	transition: all .25s ease-in-out;
-}
-.content-time figure .icon-more-team{
-	opacity: 0;
-	transition: all .25s ease-in-out;	
-}
-.content-time figure:hover .overlay-black{
-	opacity: 0.8;	
-}
-.content-time figure:hover figcaption>div{
-	transform: translateY(-20px);
-}
-.content-time figure:hover .icon-more-team{
-	opacity: 1;
-}
-.content figure figcaption{
-	z-index: 1;
-}
-.content figure figcaption h4{
-	font-size: 40px;
-}
-.content figure figcaption h3{
-	font-size: 26px;	
-}
-.content figure figcaption p{
+section.section-agua h4{
+	color: #FFF;
 	font-size: 20px;
-}
-.content h2{
-	font-family: 'Poppins', sans-serif;
-	color: #680000;
-	font-size: 42px;
-	font-weight: 400;
-}
-
-.content-jogos .escudo{
-	height: 90px;
-}
-.content-jogos h3{
-	font-size: 30px;
-	color: #BC9939;
-}
-.content-jogos h4{
-	color: #680000;
-	font-size: 30px;
 	font-weight: 700;
 }
-.content-jogos h5{
-	color: #680000;
+section.section-sustentavel{
+	background: #fff;
+}
+section.section-sustentavel h1,
+section.section-sustentavel h2
+{
+	color: #F5821F;
+	opacity: 0;
+	transform: translateY(-20px);
+}
+section.section-sustentavel h1{
+	font-size: 42px;
+	font-weight: 400;	
+}
+section.section-sustentavel h2{
 	font-size: 26px;
+	font-weight: 300;
 }
-.content-jogos h6{
-	color: #680000;
-	font-size: 20px;
+section.section-sustentavel figure{
+	opacity: 0;
+	transform: translate(-10px,20px);
 }
-.content-jogos .list-jogo{
-	border: solid 1px #BC9939;
-	padding: 15px;
+section .btn-action{
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-font-smoothing: antialiased !important; -moz-osx-font-smoothing: grayscale !important;
+	color: #FFF;
+	line-height: 1.2;
+	background: #F5821F;
+	border: solid 1px #F5821F;
+	padding: 10px 30px;
+	font-size: 25px;
+	display: inline-block;
+	text-transform: uppercase;
+	cursor: pointer;
+	opacity: 0;
 }
-
-@media (max-width: 767px) {  
-  #main h1{
-  	font-size: 30px;
-  }
+.section-contato .overlay-section{
+	background: -moz-linear-gradient(left,  rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.7) 100%);
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.7) 100%);
+	background: linear-gradient(to right,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.7) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#99000000',GradientType=1 );
 }
-
-
-
-
-
-
-
-
-
