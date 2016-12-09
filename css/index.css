@@ -101,6 +101,9 @@ section.section-sustentavel figure{
 	opacity: 0;
 	transform: translate(-10px,20px);
 }
+section.section-sustentavel .fp-tableCell{
+	display: block;	
+}
 section .btn-action{
 	font-family: 'Source Sans Pro', sans-serif;
 	-webkit-font-smoothing: antialiased !important; -moz-osx-font-smoothing: grayscale !important;
